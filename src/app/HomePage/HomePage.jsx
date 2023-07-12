@@ -1,7 +1,6 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "./homePage.module.css";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main className={styles.main}>
       <h1>React server components example</h1>
